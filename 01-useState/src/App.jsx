@@ -32,4 +32,27 @@ function App() {
   )
 }
 
+
+// function App(){
+   
+//   const [num, setNum] = useState(0)
+
+//   const increaseBtn = () =>{
+//     setNum(num+1)
+//   }
+//   const decreaseBtn = () =>{
+//     if(num>0){
+//       setNum(num-1)
+//     }
+//   }
+
+//   return(
+//     <div>
+//       <h1>{num}</h1>
+//       <button onClick={increaseBtn}>Increase</button>
+//       <button onClick={decreaseBtn}>Decrease</button>
+//     </div>
+//   )
+// }
+
 export default App
